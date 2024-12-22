@@ -11,8 +11,40 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="icon" href="images/convo.ico" />
+		<style>
 
-		
+		.image {
+			position: relative;
+      width: 100%;
+      max-width: 500px; /* Ensures it doesn't get too large */
+      height: auto;
+      aspect-ratio: 3 / 2; /* Maintain a 3:2 aspect ratio */
+      overflow: hidden;
+		  }
+		  .image img {
+			position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: opacity 0.3s ease;
+		  }
+			.image .static-image {
+				opacity: 1;
+			  }
+		  
+			  .image .hover-gif {
+				opacity: 0;
+			  }
+		  
+			  .image:hover .static-image {
+				opacity: 0;
+			  }
+		  
+			  .image:hover .hover-gif {
+				opacity: 1;
+		  
+		  }
+		  </style>
 	  
 	  
 	</head>
@@ -93,7 +125,10 @@
 					<div class="col-4 col-12-mobile">
 						<article class="item">
 							<a href="#" class="image fit"><img
-									src="https://i.imgur.com/RFzTlN1.png" alt="" /></a>
+									src="https://i.imgur.com/RFzTlN1.png" alt="" class=  "static-image" />
+								
+									<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGl2MnJ3ODF6NDNscDNsOWJha2Vnc2EyNjk1dGo5NTNjbGQ4Z2poNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/24HiPppGzlrnfUwZLp/giphy.webp"
+									alt="Hover GIF" class="hover-gif" /></a>
 							<header>
 								<h3>Year-2024</h3>
 								<h3>Role- Level Designer, Programmer, Animation Programmer</h3>
@@ -114,7 +149,11 @@
 						<article class="item">
 							<a href="#" class="image fit"><img
 									src="https://img.itch.zone/aW1hZ2UvMTg1NDk1Ny8xMDg5MTY0MC5wbmc=/original/FOP42E.png"
-									alt="" /></a>
+									alt="" class="static-image"/>
+								
+									<img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGhkMjVkM3RpaWxrbXk4aXhsd205MzJ2YWZmbmh1anJjMmZsZXN2cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lDt4G6ml72WHyrdTUn/giphy.gif"
+									alt="Hover GIF" class="hover-gif" />
+							</a>
 							<header>
 
 								<h3>Year-2024</h3>
@@ -134,7 +173,10 @@
 					<div class="col-4 col-12-mobile">
 						<article class="item">
 							<a href="#" class="image fit"><img
-									src="https://img.itch.zone/aW1nLzIwMzEyMTMucG5n/original/DH%2F6YZ.png" alt="" /></a>
+									src="https://img.itch.zone/aW1nLzIwMzEyMTMucG5n/original/DH%2F6YZ.png" alt="" class="static-image" />
+									<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjd6dWYwbzN1YWtnazF0YnF4OTBwczN6c2o3ZzF2eHE5M3U1Zzl2dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/G4hFgv37eKnukkupw3/giphy.webp"
+									alt="Hover GIF" class="hover-gif" />
+								</a>
 							<header>
 								
 								<h3>Year-2019</h3>
@@ -163,9 +205,11 @@
 						<article class="item">
 							<a href="#" class="image fit"><img
 									src="https://play-lh.googleusercontent.com/7UXRs03cq_iQSpta2-awFI8CzhFl6UXE-k5D48vaCBZOi7nWXc3UcUOFnXG4Fy3fig=w2560-h1440-rw"
-									alt="" /></a>
+									alt=""  class="static-image"/>
+									<img src="	https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHN4NGFjZGR6MnV2MmZydDRmcnY5NzF0N25tcGc3enBnYnB5bnNxMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f256jvJEFoGK7EVHaW/giphy.gif
+									"
+									alt="Hover GIF" class="hover-gif" /></a>
 							<header>
-
 								<h3>Year-2019-2022</h3>
 								<h3>Role & Contributions - Programmer, back end and responsive UI, localization,product serialization, gameplay features, moneytization.</h3>
 								
@@ -186,7 +230,11 @@
 						<article class="item">
 							<a href="#" class="image fit"><img
 									src="https://play-lh.googleusercontent.com/a4B-OE3gbT6E5vVZZgGLPIyhGKeuvon-74KOdTZlG0S2ss0rzUu3iGeKCvwJSehaPQ=w2560-h1440-rw"
-									alt="" /></a>
+									alt=""  class="static-image" /><img src="	https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3B3MnhweXdyaWFtbzF5dTNvZDA0eXI5cGw3N3Zhc2gybzN5Z3lreCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RCcldRtyGaDOWqFnVz/giphy.gif
+									"
+									alt="Hover GIF" class="hover-gif" /></a></a>
+									
+									
 							<header>
 								<h3>Year-2020-2022</h3>
 								<h3>Role & Contributions - Programmer , back end, UI, and gameplay features, playable ads with Luna playable, product serialization, adding mini games.</h3>
@@ -204,12 +252,16 @@
 						<article class="item">
 							<a href="#" class="image fit"><img
 								src="https://images2.imgbox.com/5a/c6/Lfwfavh4_o.jpg"
-								alt="" /></a>
+								alt=""  class="static-image"/> <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2JsNHM4NXN4bjR6eXMyb2VsNTlubDcydzhzZTJ4ZGxudTh0bW1hdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7HjFKnkcDeyJm0PACb/giphy.gif
+
+								"
+								alt="Hover GIF" class="hover-gif" /></a>
+
 							<header>
-								<br></br>
+								
 								<h3>Year-2023</h3>
 								<h3>Role & Contributions - Programmer,Level Designer, Game Design and balancing, Testing </h3>
-								<br></br>
+							
 									
 									<h1><a href="https://play.google.com/store/apps/details?id=com.kolpoverse.gangstars" target="_blank"
 											class="fas fa-gamepad"><span class="label"> PLAY</span></a></h1>
